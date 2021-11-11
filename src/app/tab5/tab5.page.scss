@@ -1,0 +1,131 @@
+*{
+    color:#5C5C5C;
+  }
+.myproduct-div{
+    background-color: #fff;
+    border:1px solid #ebe6e6;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px #ebe6e6;
+    width:96% !important;
+    margin:5px;
+    
+  }
+  .support-btn{
+    border-radius: 5px !important;
+    background-color: #FF6000;
+    height:25px;
+    width:70%;
+    text-align: center;
+    border:1px solid #ebe6e6;
+    font-size: 12px !important;
+    padding: 3px;
+    margin-top:18px !important;
+    color:#fff;
+   
+}
+img{
+    border-radius: 25px;
+    margin:10px;
+}
+.name{
+  font-size: 16px;
+  color: #5C5C5C;
+}
+.edit-name{
+    font-size: 15px;
+    margin-top: 5px;
+}
+// #edit-field{
+//     border:1px solid #fff;
+//     width:100%;
+//     margin-left: -20px;
+//     font-size: 11px;
+//     background-color: transparent;
+// }
+input[type=text] {
+    font-size: 14px;
+    margin: 0 5px;
+    margin-top: -12px;
+    margin-left: -20px;
+    width: 90%;
+    box-sizing: border-box;
+    border: none;
+    background-color: #fff;
+    border-bottom: 2px solid #FF6000;
+  }
+  input:focus {
+    outline: none !important;
+    border:1px solid #fff !important;
+    box-shadow: 0 0 2px #e9f3ff;
+  }
+
+#edit{
+    cursor: pointer;
+}
+
+.update-btn{
+    border-radius: 5px !important;
+    background-color: #FF6000;
+    color:#fff;
+    height:25px;
+    width:50%;
+    text-align: center;
+    border:1px solid #fff;
+    font-size: 12px !important;
+    padding: 3px;
+    margin:15px !important;
+}
+
+ion-toggle {
+  --handle-box-shadow: 0 3px 12px rgba(255, 0, 0, 0.6), 0 3px 1px rgba(50, 70, 255, 0.6);
+
+  overflow: visible;
+
+  contain: none;
+}
+ion-badge{
+  border-radius: 3px !important;
+  margin-left: -10px !important;
+}
+
+#card{
+  position:absolute;
+  height:150%;
+  width:150%;
+  background-color: rgba(0,0,0,0.4);
+  border:1px solid #ebe6e6;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #ccc;
+  margin-top: -215px !important;
+  z-index: 5;
+}
+#modal{
+  position:absolute;
+  top:15%;
+  margin: 10px;;
+  background-color: #fff;
+  border:1px solid #ebe6e6;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #ccc;
+  width:90% !important;
+  animation-name: example;
+  animation-duration: 1s;  
+  animation-fill-mode: forwards;
+  
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 200px; background-color: #fff;}
+}
+ion-content {
+    background-color:#fff !important;
+    // background: linear-gradient(to bottom, darkturquoise
+    // 0%, #d1f2e7
+    // 100%) !important;
+    --offset-bottom: auto!important;
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+  }

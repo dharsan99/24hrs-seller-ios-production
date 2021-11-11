@@ -1,0 +1,29 @@
+#logo{
+    margin-top: -35px;
+}
+.signin-btn{
+    background-color: #FF6000;
+    color:#fff;
+}
+ion-label{
+    font-size:12px  !important;
+    color:#6E7989;
+}
+ion-item{
+    --background: transparent !important;
+}
+ion-input:focus{
+    --border-bottom: 2px solid #FF6000 !important;
+}
+ion-content {
+    background-color:#fff !important;
+    // background: linear-gradient(to bottom, darkturquoise
+    // 0%, #d1f2e7
+    // 100%) !important;
+    --offset-bottom: auto!important;
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+  }

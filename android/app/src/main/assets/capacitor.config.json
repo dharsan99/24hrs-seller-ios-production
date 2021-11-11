@@ -1,0 +1,6 @@
+{
+	"appId": "com.hrsseller.app",
+	"appName": "seller-app",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
